@@ -48,3 +48,35 @@
 // }
 
 // console.log("Unlilar soni " + unliSana(unliGap) + " ta");
+
+// //<===============================> 4-masala <===============================>
+
+// function Ispalindrom(soz) {
+//   let kichikHarf = soz.toLowerCase();
+// let teskariYoz = kichikHarf.split('').reverse().join('');
+//   return kichikHarf === teskariYoz;
+// }
+// let soz1 = "Alla";
+// let result = (Ispalindrom(testSoz1));
+// // console.log(result);
+// if (result == true) {
+//   console.log(soz1 + " - bu so'z palindrom!");
+// } else {
+//   console.log(soz1 + " - bu so'z palindrom emas!");
+// }
+
+// //<===============================> 5-masala <===============================>
+
+// let array = ["a", "b", "c", "d", "e",  "d", "e", "a", "f"];
+
+//    function olibTashla(arr) {
+//     let newArr = [];
+//     for (let i of arr) {
+//         if (newArr.indexOf(i) === -1) {
+//             newArr.push(i);
+//         }
+//     }
+//      return newArr
+// }
+
+// console.log(olibTashla(array));
